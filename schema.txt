@@ -1,0 +1,12 @@
+Entities:
+- User
+
+Attributes:
+- User
+  - UserID (Primary Key)
+  - Username
+  - Password
+  - ...
+
+Relationships:
+- User can have 0 or more Favorites (One-to-Many)
